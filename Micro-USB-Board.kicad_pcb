@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (user_trace_width 0.75)
     (trace_clearance 0.15)
@@ -65,7 +65,7 @@
     (pad_drill 0.6)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFFFDF)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x210fc_80000001)
       (usegerberextensions false)
@@ -136,7 +136,7 @@
     (add_net "Net-(U3-Pad3)")
   )
 
-  (module Connectors:USB_Micro-B_10103594-0001LF (layer F.Cu) (tedit 5ACFA9BB) (tstamp 5ACF826E)
+  (module Connectors:USB_Micro-B_10103594-0001LF (layer F.Cu) (tedit 5ACFB887) (tstamp 5ACF826E)
     (at 150.25 111.75)
     (descr "Micro USB Type B 10103594-0001LF")
     (tags "USB USB_B USB_micro USB_OTG")
@@ -145,7 +145,7 @@
     (fp_text reference P1 (at -3.25 -4.25) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value USB_OTG (at 0 -0.25) (layer F.Fab)
+    (fp_text value USB_OTG (at -0.5 5.25) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -4.25 -3.4) (end 4.25 -3.4) (layer F.CrtYd) (width 0.05))
@@ -570,13 +570,13 @@
     )
   )
 
-  (module Keystone:7790-ScrewTerm-M3 (layer F.Cu) (tedit 5ACF9AE8) (tstamp 5ACF87DE)
+  (module Keystone:7790-ScrewTerm-M3 (layer F.Cu) (tedit 5ACFB884) (tstamp 5ACF87DE)
     (at 159.5 115.25)
     (path /5ACF8D0F)
     (fp_text reference J2 (at 6 -1.75) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Keystone-7790 (at 0 -7.25) (layer F.Fab)
+    (fp_text value Keystone-7790 (at 0.75 1.25) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.5 0) (end -1.5 -2) (layer F.SilkS) (width 0.15))
@@ -592,13 +592,13 @@
     (pad 5 thru_hole circle (at 3.75 -5) (size 3 3) (drill 1.9) (layers *.Cu *.Mask))
   )
 
-  (module Keystone:7790-ScrewTerm-M3 (layer F.Cu) (tedit 5ACF9AED) (tstamp 5ACF87EC)
+  (module Keystone:7790-ScrewTerm-M3 (layer F.Cu) (tedit 5ACFB881) (tstamp 5ACF87EC)
     (at 141 115.25)
     (path /5ACF8FBA)
     (fp_text reference J3 (at -6 -1.75) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Keystone-7790 (at 0 -7.25) (layer F.Fab)
+    (fp_text value Keystone-7790 (at -0.25 1.25) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.5 0) (end -1.5 -2) (layer F.SilkS) (width 0.15))
@@ -1071,7 +1071,7 @@
     (connect_pads (clearance 0.15))
     (min_thickness 0.2)
     (keepout (tracks allowed) (vias allowed) (copperpour not_allowed))
-    (fill (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.75))
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.75))
     (polygon
       (pts
         (xy 153.75 115) (xy 146.75 115) (xy 146.75 112) (xy 149.25 112) (xy 149.25 111.25)
