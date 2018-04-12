@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Texas)(type KiCad)(uri "$(KIPRJMOD)/lib/Texas.pretty")(options "")(descr ""))
+  (lib (name 640455-2)(type KiCad)(uri "$(KIPRJMOD)/lib/640455-2.pretty")(options "")(descr ""))
+  (lib (name Keystone)(type KiCad)(uri "$(KIPRJMOD)/lib/Keystone.pretty")(options "")(descr ""))
+)

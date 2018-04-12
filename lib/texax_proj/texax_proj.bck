@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPD2E001
+D TVS Array Low Capacitance 2-Channel ESD Protection for High Speed Data Interfaces
+K TVS, Array, USB, ESD
+F http://www.ti.com/lit/ds/symlink/tpd2e001.pdf
+$ENDCMP
+#
+#End Doc Library
