@@ -1,4 +1,4 @@
-update=4/13/2018 4:37:25 AM
+update=4/13/2018 4:47:59 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -66,8 +66,6 @@ LibName36=Particle
 LibName37=switches
 LibName38=diode
 LibName39=lib/DiodesInc/DiodesInc
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -78,3 +76,5 @@ NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=71
+[general]
+version=1
